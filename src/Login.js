@@ -37,7 +37,7 @@ export default function Login({
     validationSchema: Yup.object({
       email: Yup.string().email('Please enter a valid email').required('Required'),
       password: Yup.string()
-        .min(1, 'Password should be longer than 1 character')
+        .min(7, 'Password should be longer than 7 characters')
         .required('Required'),
     }),
   });
@@ -84,7 +84,6 @@ export default function Login({
               type='submit'
               fullWidth
               variant='contained'
-              color='primary'
               className={classes.submit}
               data-testid='button' >
               Sign In
