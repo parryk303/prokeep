@@ -18,7 +18,17 @@ code {
   height: 100%;
 }
 
-img {
+.unsplash {
   max-width: 65%;
   height: 100vh;
+}
+
+@media only screen and (max-width: 490px) {
+  .unsplash {display: none}
+}
+
+@media only screen and (max-width: 1050px) {
+  .unsplash {
+    max-width: 30%;
+  }
 }
