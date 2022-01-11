@@ -1,6 +1,6 @@
 # prokeep
 Prokeep React engineer exercise submission from Kyle Parry.
-
+https://prokeep-parryk303.vercel.app/
 
 ![prokeep](./ex.png)
 
@@ -22,5 +22,5 @@ npm start
 npm run test
 ```
 ```
-enter option <a> in to run all tests
+enter option <a> to run all tests
 ```
